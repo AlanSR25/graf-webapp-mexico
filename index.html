@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bandera de México</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5 text-center">
+        <h1>Bandera de México</h1>
+
+        <div class="row text-center mt-4">
+            <!-- Sección para el color verde -->
+            <div class="col-md-4">
+                <label for="greenRange" class="form-label">Esperanza</label>
+                <input type="range" class="form-range" min="0" max="255" id="greenRange" value="128">
+                <p id="greenHex">#008000</p>
+                <div id="greenBox" class="color-box">
+                    <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                </div>
+            </div>
+
+            <!-- Sección para el color blanco -->
+            <div class="col-md-4">
+                <label for="whiteRange" class="form-label">Unidad</label>
+                <input type="range" class="form-range" min="0" max="255" id="whiteRange" value="255">
+                <p id="whiteHex">#FFFFFF</p>
+                <div id="whiteBox" class="color-box">
+                    <img src="aguila.jpg" alt="Águila de la bandera" class="aguila-img">
+                </div>
+            </div>
+
+            <!-- Sección para el color rojo -->
+            <div class="col-md-4">
+                <label for="redRange" class="form-label">Sangre de nuestros héroes nacionales</label>
+                <input type="range" class="form-range" min="0" max="255" id="redRange" value="128">
+                <p id="redHex">#800000</p>
+                <div id="redBox" class="color-box">
+                    <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                </div>
+            </div>
+        </div>
+
+        <!-- Nombres y matrículas -->
+        <div class="mt-5 footer">
+            <p>Ingrid Hernandez Gomez - 22200738</p>
+            <p>Alan Santiago Rodriguez - 22200767</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
